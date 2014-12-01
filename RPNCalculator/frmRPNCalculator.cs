@@ -54,6 +54,10 @@ namespace RPNCalculator
             txtFirstNum.Text = "0";
             txtSecondNum.Text = "0";
             txtAnswer.Text = "0";
+            dblFirstNum = 0;
+            dblSecondNum = 0;
+            dblAnswer = 0;
+            txtFirstNum.Focus();
         }
 
         private void txtSecondNum_Leave(object sender, EventArgs e)
